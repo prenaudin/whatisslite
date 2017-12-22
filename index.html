@@ -1,15 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="background: black;">
+
 <head>
-<meta charset="utf-8" />
-<meta http-equiv="x-ua-compatible" content="ie=edge, chrome=1" />
-<title>What is Slite?</title>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge, chrome=1" />
+  <title>What is Slite?</title>
 </head>
+
 <body>
-  <video
-    autoplay
-    src="./video.mp4"
-    style="position: absolute; top: 0; left: 0; width: 100%; right: 0; bottom: 0;"
-  />
+  <video controls loop autoplay src="./video.mp4" style="width: 100vw; height: 100vh;">
+    <track label="Lyrics" kind="subtitles" srclang="en" src="./lyrics.vtt" default>
+  </video>
 </body>
+
 </html>
